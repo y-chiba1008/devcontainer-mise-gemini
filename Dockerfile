@@ -23,4 +23,4 @@ RUN mise use -g npm:@google/gemini-cli
 RUN mise cache clean
 
 # Gemini CLIのキーバインド設定ファイルをコピー
-COPY ./container_files/keybindings.json /home/vscode/.gemini/keybindings.json
+COPY --chown=vscode ./container_files/keybindings.json /home/vscode/.gemini/keybindings.json
