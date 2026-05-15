@@ -1,4 +1,4 @@
-# y-chiba1008-template-docker-image
+# devcontainer-mise-gemini
 
 ## About
 devcontainer開発環境用イメージ。
