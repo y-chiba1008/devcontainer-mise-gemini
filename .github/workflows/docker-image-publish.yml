@@ -46,5 +46,5 @@ jobs:
           context: .
           push: true
           # metaステップで生成されたタグを適用
-          tags: ${{ id.meta.outputs.tags }}
-          labels: ${{ id.meta.outputs.labels }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
